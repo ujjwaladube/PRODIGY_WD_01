@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.content {
+    margin-top: 70px; /* To push content below the fixed menu */
+    padding: 20px;
+}
+
+/* Styles for hover and scroll */
+.navbar a:hover {
+    color: #FF5733; /* Change color on hover */
+}
+
+/* Change menu background color on scroll */
+.scroll {
+    background-color: #555 !important; /* Change background color when scrolled */
+}
